@@ -1,0 +1,25 @@
+1.
+  a. Using a telescope, the man saw the woman
+  b. The man saw a woman that was using a telescope
+
+2.
+  a. After ten years, sisters reunited in checkout line at Safeway.
+  b. Large hole appears in High Street. City authorities are investigating it.
+  c. Mayor says bus passengers should wear a seat belt.
+
+3.
+  All head injuries, even very small ones, cannot be ignored
+  
+4.
+
+5.
+  No, not a true statement, but understood. To make it logically true: "This page intentionally left blank with the exception of this message."
+
+6.
+
+7.
+  Temperature is a number, which cannot be hot or cold. It is understood that that the temperature is high (where I live, in the 80-90s; in hotter climates it would mean something higher than that)
+
+8.
+=> By finding one number n for which the statement "every number of the form N = (p1 ·p2 ·p3 · ... ·pn) + 1 is prime" is false.
+   This number is 6 (2 * 3 * 5 * 7 * 11 * 13 + 1 = 30031 = 59 * 509, not prime.
