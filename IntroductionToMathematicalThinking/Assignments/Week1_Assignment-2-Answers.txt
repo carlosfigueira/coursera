@@ -1,0 +1,61 @@
+﻿1.
+  a. 0 < π < 10
+  b. 7 <= p < 12
+  c. 5 < x < 7
+  d. x < 4
+  e. (y < 4) ∧ (y^2 < 9) => y^2 < 9 => -3 < y < 3
+  f. x == 0
+
+2.
+  a. Pi is between 0 and 10, exclusive
+  b. p is between 7 (inclusive) and 12 (exclusive)
+  c. x is between 5 and 7, exclusive
+  d. x is smaller than 4
+  e. y squared is smaller than 9
+     y is between -3 and 3, exclusive
+  f. x is equal to 0
+
+3. Show that all individual statements φi are true
+  
+4. Show that at least one of the individual statements φi is false
+
+5.
+  a. π > 3
+  b. x != 0
+  c. x >= 0
+  d. x >= 0
+  e. x^2 > 9 => x < -3 v x > 3
+
+6.
+  a. Pi is greater than 3
+  b. x is not equal to 0
+  c. x is greater than or equal to 0
+  d. x is greater than or equal to 0
+  e. x squared is greater than 9
+     x is smaller than -3 or x is greater than 3
+
+7. Show that at least one of the individual statements φi is true
+  
+8. Show that all individual statements φi are false
+
+9.
+  a. π <= 3.2
+  b. x >= 0
+  c. x^2 <= 0 => x == 0 (assuming context of real numbers)
+  d. x != 1
+  e. ψ
+
+10
+  a. Pi is less than or equal to 3.2
+  b. x is greater than or equal to 0
+  c. x squared is less than or equal to 0
+     x is equal to 0
+  d. x is not equal to 1
+  e. The value of ψ is true
+
+11.
+  a. D ∧ Y
+  b. ¬Y ∧ T ∧ D
+  c. ¬(D ∧ Y)
+  d. T ∧ ¬Y ∧ ¬D
+  e. ¬T ∧ Y ∧ D

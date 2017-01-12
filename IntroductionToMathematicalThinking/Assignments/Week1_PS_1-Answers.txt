@@ -1,0 +1,104 @@
+﻿1.
+    φ  ψ  θ   (φ ∧ ψ) ∧ θ   φ ∧ (ψ ∧ θ)
+    F  F  F           F       F
+    F  F  T           F       F
+    F  T  F           F       F
+    F  T  T           F       F
+    T  F  F           F       F
+    T  F  T           F       F
+    T  T  F           F       F
+    T  T  T           T       T
+
+2.
+    φ  ψ  θ   (φ ∨ ψ) ∨ θ   φ ∨ (ψ ∨ θ)
+    F  F  F           F       F
+    F  F  T           T       T
+    F  T  F           T       T
+    F  T  T           T       T
+    T  F  F           T       T
+    T  F  T           T       T
+    T  T  F           T       T
+    T  T  T           T       T
+
+3.
+    φ  ψ  θ    φ ∧ (ψ ∨ θ)   (φ ∧ ψ) ∨ (φ ∧ θ)
+    F  F  F      F                   F
+    F  F  T      F                   F
+    F  T  F      F                   F
+    F  T  T      F                   F
+    T  F  F      F                   F
+    T  F  T      T                   T
+    T  T  F      T                   T
+    T  T  T      T                   T
+
+4.
+    φ  ψ  θ    φ ∨ (ψ ∧ θ)   (φ ∨ ψ) ∧ (φ ∨ θ) TBC
+    F  F  F      F                   F
+    F  F  T      F                   F
+    F  T  F      F                   F
+    F  T  T      T                   T
+    T  F  F      T                   T
+    T  F  T      T                   T
+    T  T  F      T                   T
+    T  T  T      T                   T
+
+5.
+    ϕ   ¬ϕ
+    F    T
+    T    F
+
+6.
+  - Definitions:
+    - S: Alice is a rock star
+    - B: Alice works in a bank
+    - H: Alice is honest
+    - Q: Alice is quiet
+    - R: Alice is reserved
+  - Statements:
+    - a. S ∧ B
+    - b. Q ∧ B
+    - c. Q ∧ R ∧ B
+    - d. H ∧ B
+    - e. B
+  - Likelihood:
+    - (e) is at least as likely as the others (since it's a precondition for them), probably more
+
+7.
+  - Definitions:
+    - S: Alice is a rock star
+    - B: Alice works in a bank
+    - H: Alice is honest
+    - Q: Alice is quiet
+    - R: Alice is reserved
+  - Statements:
+    - a. S ∨ B
+    - b. Q ∧ B
+    - c. S
+    - d. H ∧ B
+    - e. B
+  - Likelihood:
+    - (e) is more likely than (b) and (d)
+    - (a) is more likely than (c) and (e)
+    - (a) is more likely than others
+
+8.
+    - (x > 0) ∧ (x ≤ 10) means 0 ≤ x ≤ 10
+        => FALSE (0 < x ≤ 10)
+    - (x ≥ 0) ∧ (x^2 < 9) means 0 ≤ x < 3
+        => TRUE
+    - (x ≥ 0) ∧ (x ≤ 0) means x = 0
+        => TRUE
+    - There is no x for which (x < 4) ∧ (x > 4)
+        => TRUE
+    - −5 ≤ x ≤ 5 means x is at most 5 units from 0.
+        => TRUE
+    - −5 < x < 5 implies that x cannot be exactly 5 units from 0.
+        => TRUE
+    - (x ≥ 0) ∨ (x < 0)
+        => TRUE
+    - (0 = 1) ∨ (x^2 ≥ 0)
+        => TRUE (first is always false, second is always true)
+    - If (x > 0 ∨ x < 0) then x ≠ 0.
+        => TRUE
+    - If x^2 = 9 then (x = 3 ∨ x = −3).
+        => TRUE
