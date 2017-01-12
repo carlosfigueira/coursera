@@ -24,7 +24,7 @@
   b. x != 0
   c. x >= 0
   d. x >= 0
-  e. x^2 > 9 => x < -3 v x > 3
+  e. x^2 > 9 => x < -3 ∨ x > 3
 
 6.
   a. Pi is greater than 3

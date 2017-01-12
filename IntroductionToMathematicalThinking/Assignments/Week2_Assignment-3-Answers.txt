@@ -1,0 +1,36 @@
+﻿1.
+  a. T => (D ∧ Y)
+  b. D => ¬Y
+  c. ¬D => ¬T
+  d. T => ¬(D ∧ Y)
+  e. T => (¬D ∧ Y)
+  f. T => (Y => ¬D)
+  g. T => (D == Y)
+  h. T => (¬D ∧ Y) ∨ (D ∧ ¬Y) ... T => (D ∨ Y) ∧ ¬(D ∧ Y)
+
+2.
+    φ   ¬φ  ψ   φ => ψ   ¬φ ∨ ψ
+    T   F   T     T         T
+    T   F   F     F         F
+    F   T   T     T         T
+    F   T   F     T         T
+
+3. (φ => ψ) == (¬φ ∨ ψ)
+
+4.
+    φ   ψ   ¬ψ  φ => ψ   φ !=> ψ   φ ∧ ¬ψ
+    T   F   T     T        F         F
+    T   F   T     F        T         T
+    F   T   F     T        F         F
+    F   T   F     T        F         F
+
+5. (φ !=> ψ) == (φ ∧ ¬ψ)
+
+Puzzle:
+  A woman was driving in her car along a black road. She did not have her car
+  lights on. There was no moon and no light from the stars. A black dog was
+  asleep in the middle of the road. As the woman approached the dog, she
+  swerved to avoid it, and the animal slept on. How did the woman know to
+  swerve around the dog? 
+  
+  => nothing says that it was at night.
