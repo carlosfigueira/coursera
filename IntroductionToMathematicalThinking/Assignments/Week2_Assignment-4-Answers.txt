@@ -1,0 +1,177 @@
+﻿1.                                     *               *
+    φ   ψ   φ => ψ   ψ => φ   (φ => ψ) ∧ (ψ => φ)   φ <=> ψ
+    T   T      T       T               T               T
+    T   F      F       T               F               F
+    F   T      T       F               F               F
+    F   F      T       T               T               T
+- (*) equivalent expressions
+
+2.                 *          *
+    φ   ψ   ¬φ   φ => ψ   (¬φ ∨ ψ)
+    T   T    F     T          T
+    T   F    F     F          F
+    F   T    T     T          T
+    F   F    T     T          T
+- (*) equivalent expressions
+
+3.                  *         *
+    φ   ψ   ¬ψ   φ !=> ψ   (φ ∧ ¬ψ)
+    T   T    F      F         F
+    T   F    T      T         T
+    F   T    F      F         F
+    F   F    T      F         F
+- (*) equivalent expressions
+
+4.                                              *
+    φ   ψ   φ => ψ   (φ ∧ (φ => ψ))   ((φ ∧ (φ => ψ)) => ψ)
+    T   T     T         T                             T
+    T   F     F         F                             T
+    F   T     T         F                             T
+    F   F     T         F                             T
+-> (*) is a tautology, therefore true
+
+5.
+  - (¬φ)∧(¬ψ) means that both φ and ψ are false
+  - ¬(φ∨ψ) means that it's not the case that at least one of φ or ψ is true, which means that both are false
+  - both statements are equivalent
+
+6.
+  a. 34,159 is not a prime number
+  b. Roses are not red or violets are not blue
+  c. There are no hamburger but I won't have a hot dogs
+  d. Fred will not go or he will pay
+  e. The number x is greater than or equal to zero and less than or equal to 10
+  f. We will lose the first two games
+
+7.                       *          *
+    φ   ψ   ¬φ   ¬ψ   φ <=> ψ   ¬ψ <=> ¬φ
+    T   T    F    F      T          T
+    T   F    F    T      F          F
+    F   T    T    F      F          F
+    F   F    T    T      T          T
+- (*) equivalent expressions
+
+8. 
+  a.
+    φ   ψ   φ <=> ψ
+    T   T      T
+    T   F      F
+    F   T      F
+    F   F      T
+
+b.
+    φ   ψ   θ   (ψ ∨ θ)   φ => (ψ∨θ)
+    T   T   T      T        T
+    T   T   F      T        T
+    T   F   T      T        T
+    T   F   F      F        F
+    F   T   T      T        T
+    F   T   F      T        T
+    F   F   T      T        T
+    F   F   F      F        T
+
+9.                                             *                        *
+    φ   ψ   θ   (φ => ψ)   (φ => θ)   (φ => ψ) ∧ (φ => θ)   (ψ ∧ θ)   φ => (ψ ∧ θ)
+    T   T   T      T          T                T               T              T
+    T   T   F      T          F                F               F              F
+    T   F   T      F          T                F               F              F
+    T   F   F      F          F                F               F              F
+    F   T   T      T          T                T               T              T
+    F   T   F      T          T                T               F              T
+    F   F   T      T          T                T               F              T
+    F   F   F      T          T                T               F              T
+- (*) equivalent expressions
+
+10.
+  If by stating that if φ is valid then the conjunction (ψ ∧ θ) is valid, then
+  by the definition of the conjunction, we can conclude that if φ is valid then
+  ψ is valid (weakening the conjunction) and if φ is valid then θ is valid.
+
+11.                     *         *
+    φ   ψ   ¬φ   ¬ψ   φ => ψ   ¬ψ => ¬φ
+    T   T    F    F     T         T
+    T   F    F    T     F         F
+    F   T    T    F     T         T
+    F   F    T    T     T         T
+- (*) equivalent expressions
+
+12.
+  a. If two rectangle do not have the same area, then they are not congruent
+  b. If for a triangle with sides a, b, c (c largest) a^2 + b^2 != c^2, then
+      the triangle is not right-angled
+  c. If n is not prime, then 2^n - 1 is not prime
+  d. If the Dollar does not fall then the Yuan will not rise.
+
+13.           *        *
+    φ   ψ   φ => ψ   ψ => φ
+    T   T     T        T
+    T   F     F        T
+    F   T     T        F
+    F   F     T        T
+- (*) NOT equivalent expressions
+
+14.
+  a. If two rectangles have the same area, they are congruent
+  b. If for a triangle with sides a, b, c (c largest) a^2 + b^2 = c^2, then
+     the triangle is right-angled
+  c. If n is prime, then 2^n - 1 is prime
+  d. If the Dollar falls then the Yuan will rise.
+
+OPTIONAL
+1.
+  φ unless ψ: ψ => ¬φ
+
+2.
+    φ   ψ   φ XOR ψ
+    T   T     F
+    T   F     T
+    F   T     T
+    F   F     F
+
+3.
+  φ XOR ψ <=> (φ ∨ ψ) ∧ ¬(φ ∧ ψ)
+
+4.
+  a. If n^2 < 9 then n is greater than -3 and smaller than 3
+  b. If n = 2 then n is even
+  c. If a = 1 then a + 1 = 2
+  d. Does not exist
+
+5.
+    M   N   MxN   M+N
+    1   1    1     0
+    1   0    0     1
+    0   1    0     1
+    0   0    0     0
+
+6.
+  a. AND
+  b. XOR
+  c. No
+
+7.
+  a. NOR
+  b. EQU
+  c. N/A
+
+8.
+  Need to turn 2 cards (E and 4)
+
+9.
+  Definition of odd(x): There is a number x' >= 0 such as 2*x' + 1 = x
+  First side (m and n are odd, m*n is odd):
+    m = 2*m' + 1 (definition of odd numbers)
+    n = 2*n' + 1 (definition of odd numbers)
+    m * n = (2*m' + 1) * (2*n' + 1) = 4*m'*n' + 2*m' + 2*n' + 1 = 2*(2*m'*n' + m' + n') + 1 => is odd (definition of odd numbers)
+  
+  Second part (either m or n is not odd, m*n is not odd)
+    Assuming m is odd (proof is the same for the case of n)
+    m = 2*m'
+    m*n = 2*m'*n = 2*(m'*n) => not odd
+
+10.
+  No: counter-example: m=4, n=3. Not true that m and n are even, but it is true that m*n is even
+
+11. Person drinking beer, and underage person
+
+12. 

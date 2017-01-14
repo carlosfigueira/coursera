@@ -1,0 +1,105 @@
+﻿1.
+  Which of the following conditions are necessary for the natural number n to be divisible by 6? Select all those you believe are necessary.
+    a. n is divisible by 3.             YES
+    b. n is divisible by 9.             NO
+    c. n is divisible by 12.            NO
+    d. n = 24                           NO
+    e. n^2 is divisible by 3.           YES
+    f. n is even and divisible by 3.    YES
+
+2. Which of the following conditions are sufficient for the natural number n to be divisible by 6? Select all those you believe are sufficient.
+    a. n is divisible by 3.             NO
+    b. n is divisible by 9.             NO
+    c. n is divisible by 12.            YES
+    d. n = 24                           YES
+    e. n^2 is divisible by 3.           NO
+    f. n is even and divisible by 3.    YES
+
+3. Which of the following conditions are necessary and sufficient for the natural number n to be divisible by 6? Select all those you believe are necessary and sufficient.
+    a. n is divisible by 3.             NO
+    b. n is divisible by 9.             NO
+    c. n is divisible by 12.            NO
+    d. n = 24                           NO
+    e. n^2 is divisible by 3.           NO
+    f. n is even and divisible by 3.    YES
+
+4. Identify the antecedent in the conditional “If the apples are red, they are ready to eat.”
+    THE APPLES ARE RED              <<====
+    THE APPLES ARE READY TO EAT
+
+5. Identify the antecedent in the conditional “The differentiability of a function f is sufficient for f to be continuous.”
+            sufficient => X
+    f IS DIFFERENTIABLE             <<====
+    f IS CONTINUOUS
+
+6. Identify the antecedent in the conditional “A function f is bounded if f is integrable.”
+    f IS BOUNDED
+    f IS INTEGRABLE                 <<====
+
+7. Identify the antecedent in the conditional “A sequence S is bounded whenever S is convergent.”
+    S IS BOUNDED
+    S IS CONVERGENT                 <<====
+
+8. Identify the antecedent in the conditional “It is necessary that n is prime in order for 2^n − 1 to be prime.”
+            X => necessary
+    n IS PRIME
+    2^n −1 IS PRIME                 <<====
+
+9. Identify the antecedent in the conditional “The team wins only when Karl is playing.”
+    THE TEAM WINS                   <<====
+    KARL IS PLAYING
+
+  W  K   !K => !W
+  T  T
+  T  F
+  F  T
+  F  F
+
+
+10. Identify the antecedent in the conditional “When Karl plays the team wins.”
+    THE TEAM WINS
+    KARL IS PLAYING                 <<====
+
+11. Identify the antecedent in the conditional “The team wins when Karl plays.”
+    THE TEAM WINS
+    KARL IS PLAYING                 <<====
+
+12. For natural numbers m,n, is it true that mn is even iff m and n are even?
+    No -> not necesssarily that if m*n is even then m and n are even (e.g., 4, 3)
+
+13. Is it true that mn is odd iff m and n are odd?
+    Yes
+
+14. Which of the following pairs of propositions are equivalent?
+  a. ¬P ∨Q , P => Q                             YES
+  b. ¬(P ∨Q) , ¬P ∧¬Q                           YES
+  c. ¬P ∨¬Q , ¬(P ∨¬Q)                          NO
+  d. ¬(P ∧Q) , ¬P ∨¬Q                           YES
+  e. ¬(P => (Q∧R)) , ¬(P => Q)∨¬(P => R)        YES
+  f. P => (Q => R) , (P ∧Q) => R                YES
+
+15.
+
+Claim: For any two propositions P,Q, ¬P ∧¬Q is equivalent to ¬[P ∧Q].
+Proof: Suppose that ¬P ∧¬Q is true. Then both ¬P and ¬Q are true.
+       So P and Q are both false. Thus P ∧Q is false. Hence ¬[P ∧Q] is true.
+       This argument clearly works the other way.
+       So we have implication in both directions, which proves the claim.
+
+Score                   mine                            professor
+- Logical correctness:  0 (is incorrect)                    2 (=> is correct, <= is incorrect)
+- Clarity:              2 ("clearly works")                 4
+- Opening:              2 (ok)                              4
+- State conclusion:     2 (wrong, too simple)               4
+- Reasons:              0 (did not reason correctly)        2
+- Overall valuation:    2                                   2
+- TOTAL                 8                                   18
+
+Mine (reviewed)
+- Logical correctness:  2 (=> is correct, <= is not         2 (=> is correct, <= is incorrect)
+- Clarity:              2 ("clearly works")                 4
+- Opening:              4 (ok)                              4
+- State conclusion:     4 (stated clearly, albeit wrong)    4
+- Reasons:              2 (did not reason correctly)        2
+- Overall valuation:    2                                   2
+- TOTAL                 16                                  18
